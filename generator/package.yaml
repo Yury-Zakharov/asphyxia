@@ -1,0 +1,20 @@
+name:                generator
+version:             0.1.0.0
+#synopsis:
+#description:
+homepage:            https://github.com/githubuser/generator#readme
+license:             BSD3
+author:              Yury Zakharov
+maintainer:          colonelcolt@gmail.com
+copyright:           2021 Yury Zakharov
+category:            Web
+extra-source-files:
+- README.md
+
+dependencies:
+  - base >= 4.7 && < 5
+
+executables:
+  generator:
+    source-dirs:      src
+    main:             Main.hs
